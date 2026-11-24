@@ -1,0 +1,22 @@
+.search__inner {
+    width: 100%;
+    padding: 17px 40px 18px 40px;
+    border-bottom: 1px solid rgba(204, 153, 255, 0.3);
+    label {
+        display: none;
+    }
+    .search__input {
+        width: 100%;
+        // background-color: #fff;
+        padding: 10px;
+        // border-radius: 50px;
+        border-bottom: 3px solid rgba(204, 153, 255, 0.3);
+        // background-color: rgba(204, 153, 255, 0.3);
+        color: #333;
+
+        &:focus {
+            outline: none; 
+        }
+    }
+    
+}

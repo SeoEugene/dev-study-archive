@@ -1,0 +1,39 @@
+body.yellow {
+    background-color: #f3f0e7;
+}
+
+body.yellow #header {
+    background-color: #f3f0e7;
+}
+
+body.yellow #nav {
+    background-color: #f3f0e7;
+}
+
+body.yellow .circle__721 {
+    background-color: #F2F0E7;
+}
+
+
+
+/* body.sky {
+    background: linear-gradient(to bottom, #001F3F, #000000);
+    color: #fff;
+} */
+body.sky {
+    background: #363C49;
+    color: #fff;
+}
+
+body.sky #header {
+    background: #363C49;
+}
+
+body.sky #nav {
+    background-color: #363C49;
+}
+
+body.sky .circle__721 {
+    background: #363C49;
+
+}

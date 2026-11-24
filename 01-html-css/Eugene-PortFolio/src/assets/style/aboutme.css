@@ -1,0 +1,172 @@
+.about__wrap {}
+
+#parallax__cont {}
+
+#horizontal {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+/* #horizontal>section {} */
+.parallax__item {
+    width: 100%;
+    height: calc(100vh - 70px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    border-bottom: 1px solid #333;
+    padding: 20px;
+    border: 1px solid red;
+}
+
+.parallax__item .text {
+    width: 100%;
+    font-size: 100px;
+    font-family: 'TAEBAEKmilkyway';
+    font-weight: 800;
+    border: 1px solid green;
+}
+
+.text1 {
+    text-align-last: left;
+}
+
+.text2 {
+    text-align: right;
+}
+
+
+.about__img {
+    height: 25vw;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about1 {
+    background-image: url(../img/about1.png);
+}
+
+.about2 {
+    background-image: url(../img/about2.png);
+}
+
+.about3 {
+    background-image: url(../img/about1.png);
+}
+
+.about4 {
+    background-image: url(../img/about2.png);
+}
+
+
+#section2 {
+    /* background-color: #363C49; */
+
+}
+
+.slide__page {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+
+
+.slide {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+}
+
+.slide {
+    background-image: url(../img/album.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section2 ul:first-child {
+    margin-bottom: 80px;
+}
+
+.slide li {
+
+    /* background-image: url(../img/album.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.slide li a {
+    display: flex;
+
+    height: 300px;
+    border: 1px solid #000;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* myskill */
+.myskill__wrap {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill__box {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-top: 1px solid #000;
+    margin-bottom: 60px;
+}
+
+.skill__box h4 {
+    margin-top: 5px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    font-size: 2vw;
+}
+
+.skill__box .skill {
+    margin-left: 60px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    border-left: 1px solid #000;
+}
+
+.skill__box .skill>ul {}
+
+.skill__box .skill>ul>li {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    position: relative;
+
+}
+
+.skill__box .skill>ul>li:before {
+    content: '';
+    width: 22px;
+    height: 22px;
+    border: 1px solid #000;
+    position: absolute;
+    top: 0;
+    left: -60px;
+    cursor: pointer;
+}

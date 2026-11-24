@@ -1,0 +1,138 @@
+.list__wrap {
+    width: 200%;
+    height: 100%;
+    display: flex;
+    transition: transform 1s ease;
+}
+
+.list__wrap .page {
+    width: 100%;
+    height: 100%;
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    align-content: center;
+}
+
+.list__wrap .page h3 {
+    width: 15%;
+    height: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: "Serifbabe Regular";
+
+    border: 2px solid #333;
+    border-radius: 30px;
+    background-color: #f3f0e7;
+}
+
+.list__wrap .page>div {
+    display: flex;
+}
+
+.list__wrap .list {
+    width: 300px;
+    height: 500px;
+    margin-bottom: 33px;
+    margin: 1.5vw;
+    background-color: #f3f0e7;
+}
+
+.list__wrap .list>div:nth-child(1),
+.list__wrap .list>div:nth-child(2),
+.list__wrap .list>div:nth-child(3),
+.list__wrap .list>div:nth-child(4) {
+    width: 100%;
+    height: 42px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list__wrap .list>div:nth-child(1) {
+    border-bottom: 2px solid #000;
+}
+
+.list__wrap .list>div:nth-child(4) {
+    font-size: 14px;
+    text-align: center;
+}
+
+.list__wrap .list>div:nth-child(5) {
+    width: 100%;
+    height: 334px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list__wrap .img a {
+    display: flex;
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+}
+
+.list__wrap .one .img a {
+    background-image: url(../img/I.png);
+}
+
+.list__wrap .two .img a {
+    background-image: url(../img/II.png);
+}
+
+.list__wrap .three .img a {
+    background-image: url(../img/III.png);
+}
+
+.list__wrap .four .img a {
+    background-image: url(../img/IV.png);
+}
+
+.next {
+    width: 100px;
+    height: 50px;
+    background-image: url(../img/next.gif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    right: 1%;
+    transform: (translate(-50%, -1%));
+    cursor: pointer;
+}
+
+.prev {
+    width: 100px;
+    height: 50px;
+    background-image: url(../img/next.gif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    transform: (translate(-50%, -1%));
+    cursor: pointer;
+    transform: scaleX(-1);
+}
+
+@media (max-width: 700px) {
+    .list__wrap {
+        border: 1px solid orange;
+        margin: 0 auto;
+    }
+
+    .list {
+        border: 1px solid red;
+    }
+}
